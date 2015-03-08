@@ -1,5 +1,5 @@
 function useItem(x, y, z, iteid, blockId, side) {// this hole code will spawn steve by tapping the ground
-        if(itemId == 0) {
+        if(getCarriedItem() == 218);
                    var custom = Level.spawnMob(x,y+1,z,11,"mob/char.png");
                    Entity.setRenderType(custom, 3)
                   clientMessae("Steve Joined The Game");
