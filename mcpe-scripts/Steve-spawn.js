@@ -1,6 +1,6 @@
 function useItem (x, y, z, iteid, blockId, side)
 {// this hole code will spawn steve by tapping the ground
-        if(getCarriedItem() == 218)
+        if(itemId == 218)
         {//you need to tap on the ground with a stick
                    var custom = Level.spawnMob(x,y+1,z,11,"mob/char.png");
                    Entity.setRenderType(custom, 3)
