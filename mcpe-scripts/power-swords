@@ -1,0 +1,8 @@
+ModPE.setOverrideTexture("images/items-opaque.png","i.imgur.com/OjragaN.png");
+ModPE.setItem(500,"ruby",0,"Power-Sword");
+
+function attackHook(attacker, victim){
+        if(getCarridItem()==500){
+                        Entity.setFireTicks(victim, 20);
+     }
+  }
